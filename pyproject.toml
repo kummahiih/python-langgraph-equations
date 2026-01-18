@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-langgraph-equations"
+version = "0.0.1"
+description = "python-langgraph-equations"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "Pauli Rikula", email = "pauli.rikula@gmail.com" }
+]
+requires-python = ">=3.6,<4.0"
+dependencies = [
+    "python-category-equations~=0.7",
+    "langgraph~=1.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/kummahiih/python-langgraph-equations"
+
+[tool.setuptools]
+packages = ["langgraph_equations"]
+
