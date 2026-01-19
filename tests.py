@@ -8,6 +8,7 @@ if __name__ == '__main__':
     }
     
     doctest.testfile(filename="get_primitives.py", module_relative=True, package=langgraph_equations, globs=globs)
-    print("All tests passed.")
+    doctest.testfile(filename="simplify.py", module_relative=True, package=langgraph_equations, globs=globs)
+
 
     

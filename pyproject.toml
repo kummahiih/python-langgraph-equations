@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "python-langgraph-equations"
-version = "0.0.1"
+version = "0.0.2"
 description = "python-langgraph-equations"
 readme = "README.md"
 license = { text = "MIT" }
@@ -13,7 +13,7 @@ authors = [
 ]
 requires-python = ">=3.6,<4.0"
 dependencies = [
-    "python-category-equations~=0.7",
+    "python-category-equations~=0.8",
     "langgraph~=1.0"
 ]
 

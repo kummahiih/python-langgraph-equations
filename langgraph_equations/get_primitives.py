@@ -1,9 +1,16 @@
+"""
+@copyright: 2026 by Pauli Rikula <pauli.rikula@gmail.com>
+
+@license: MIT <https://opensource.org/license/mit>
+"""
+
 from langgraph.graph import StateGraph
 from category_equations import from_operator
 
+
 def get_primitives(graph: StateGraph, debug: bool = False):
     """
-# python-langgraph-equations
+## get_primitives(graph: StateGraph, debug: bool = False)
 
 Function `get_primitives` returns a tuple (I, O, C) 
 that represents the set of equation construction primitives 
